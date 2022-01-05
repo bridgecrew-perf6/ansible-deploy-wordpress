@@ -1,0 +1,8 @@
+---
+- name: "deploy Wordpress with a role via Tower"
+  hosts: prod
+  become: true
+  roles:
+    - docker_role
+    - wordpress_role
+  
