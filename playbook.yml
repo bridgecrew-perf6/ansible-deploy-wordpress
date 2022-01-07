@@ -1,6 +1,6 @@
 ---
 - name: "deploy Wordpress with a role via Tower"
-  hosts: prod
+  hosts: localhost
   become: true
   roles:
     - docker_role
